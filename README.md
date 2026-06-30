@@ -1,83 +1,119 @@
-## Descrição do Projeto
+# SchedSim – Simulador Didático de Escalonamento de Processos
 
-Este projeto consiste no desenvolvimento de uma ferramenta que simula o funcionamento do **escalonamento de processos**, utilizando o algoritmo **Round Robin**.
+## Sobre o Projeto
 
-A aplicação permite ao usuário configurar parâmetros como uso de CPU, operações de disco (E/S), número de processos e tempo de execução, possibilitando a visualização do comportamento da CPU ao longo do tempo.
+O **SchedSim** é um simulador didático desenvolvido em **Flutter** e **Dart** com o objetivo de demonstrar o funcionamento do algoritmo de escalonamento **Round Robin**, amplamente utilizado em Sistemas Operacionais.
 
-## Formas de Execução
+A aplicação permite a criação e configuração de processos, executando a simulação do escalonamento e apresentando, de forma visual, o comportamento da CPU ao longo da execução.
 
-O projeto foi disponibilizado em duas versões para facilitar a execução em diferentes sistemas operacionais:
+O software foi desenvolvido como projeto da disciplina de **Sistemas Operacionais** da Universidade Federal Rural do Semi-Árido (UFERSA), visando apoiar o ensino e a aprendizagem dos conceitos de escalonamento de processos.
 
-### 🐧 **Versão Linux**
+---
 
-📁 Pasta: `Simulador_RoundRobin_Linux`
+# Principais Funcionalidades
 
-#### Como executar:
+* Simulação do algoritmo **Round Robin**
+* Criação e gerenciamento de processos
+* Configuração do Quantum
+* Configuração do tempo de CPU
+* Configuração das operações de Entrada/Saída (Disco)
+* Definição do número de rodadas
+* Definição do tempo total da simulação
+* Visualização da linha do tempo de execução dos processos
+* Cálculo automático da utilização da CPU
+* Cálculo do tempo médio de espera
 
-1. Abra o terminal na pasta:
+---
 
-   ```bash
-   cd Simulador_RoundRobin_Linux
-   ```
+# Tecnologias Utilizadas
 
-2. Conceda permissão de execução (se necessário):
+* Flutter
+* Dart
 
-   ```bash
-   chmod +x roundrobin
-   ```
+---
 
-3. Execute o programa:
+# Plataformas Suportadas
 
-   ```bash
-   ./roundrobin
-   ```
+* Windows
+* Linux
 
-### **Versão Windows**
+---
 
-📁 Pasta: `Simulador_RoundRobin_Windows`
+# Estrutura do Projeto
 
-#### Como executar:
+```text
+SchedSim/
+│
+├── lib/
+├── assets/
+├── windows/
+├── linux/
+├── README.md
+└── pubspec.yaml
+```
 
-1. Acesse a pasta:
+---
 
-   ```
-   Simulador_RoundRobin_Windows
-   ```
+# Como Executar
 
-2. Execute o arquivo:
+## Linux
 
-   ```
-   roundrobin.exe
-   ```
+```bash
+cd Simulador_RoundRobin_Linux
+chmod +x roundrobin
+./roundrobin
+```
 
-> ⚠️ **Importante:**
-> Não remover arquivos da pasta, pois o executável depende das bibliotecas incluídas.
+## Windows
 
-## ⚙️ Funcionalidades
+Acesse a pasta:
 
-- Criação e gerenciamento de processos
-- Configuração de:
-  - Tempo de CPU
-  - Tempo de disco (E/S)
-  - Número de rodadas
-  - Quantum
-  - Tempo total da simulação
+```text
+Simulador_RoundRobin_Windows
+```
 
-- Execução do algoritmo Round Robin
-- Visualização da linha do tempo da CPU
-- Cálculo de:
-  - Uso da CPU (%)
-  - Tempo médio de espera
+Execute:
 
-## Objetivo
+```text
+roundrobin.exe
+```
 
-O objetivo é proporcionar uma ferramenta didática para auxiliar na compreensão do funcionamento de algoritmos de escalonamento de processos em sistemas operacionais.
+> **Importante:** mantenha todos os arquivos da pasta do executável. O programa depende das bibliotecas distribuídas juntamente com ele.
 
-## Tecnologias Utilizadas
+---
 
-- Flutter
-- Dart
+# Objetivo
 
-## Autor
+O SchedSim foi desenvolvido com finalidade educacional para auxiliar estudantes na compreensão do funcionamento do algoritmo de escalonamento Round Robin, permitindo observar, de maneira prática, o comportamento da CPU durante a execução de processos.
 
-João Victor Ferreira da Silva
+---
+
+# Informações do Projeto
+
+| Item            | Informação                                                  |
+| --------------- | ----------------------------------------------------------- |
+| Nome            | SchedSim – Simulador Didático de Escalonamento de Processos |
+| Versão          | 1.0.0                                                       |
+| Data de criação | 20/04/2026                                                  |
+| Linguagem       | Dart                                                        |
+| Framework       | Flutter                                                     |
+| Plataforma      | Windows e Linux                                             |
+| Algoritmo       | Round Robin                                                 |
+
+---
+
+# Autor
+
+**João Victor Ferreira da Silva**
+
+Projeto desenvolvido para a disciplina de Sistemas Operacionais da Universidade Federal Rural do Semi-Árido (UFERSA).
+
+---
+
+# Licença
+
+Este projeto possui finalidade exclusivamente acadêmica e educacional.
+
+Todos os direitos autorais pertencem ao autor.
+
+© 2026 João Victor Ferreira da Silva.
