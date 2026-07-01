@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:roundrobin/estado.dart';
-import 'package:roundrobin/processo.dart';
+import 'package:schedsim/estado.dart';
+import 'package:schedsim/processo.dart';
 
 class TelaSimulador extends StatefulWidget {
   const TelaSimulador({super.key});
@@ -123,7 +123,9 @@ class _TelaSimuladorState extends State<TelaSimulador> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Simulador de Escalonamento")),
+      appBar: AppBar(
+        title: const Text("SchedSim | Simulador de Escalonamento"),
+      ),
       body: Stack(
         children: [
           SingleChildScrollView(

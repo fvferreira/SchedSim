@@ -12,30 +12,27 @@ O software foi desenvolvido como projeto da disciplina de **Sistemas Operacionai
 
 # Principais Funcionalidades
 
-* Simulação do algoritmo **Round Robin**
-* Criação e gerenciamento de processos
-* Configuração do Quantum
-* Configuração do tempo de CPU
-* Configuração das operações de Entrada/Saída (Disco)
-* Definição do número de rodadas
-* Definição do tempo total da simulação
-* Visualização da linha do tempo de execução dos processos
-* Cálculo automático da utilização da CPU
-* Cálculo do tempo médio de espera
+- Simulação do algoritmo **Round Robin**
+- Criação e gerenciamento de processos
+- Configuração do Quantum
+- Definição do tempo total da simulação
+- Visualização da linha do tempo de execução dos processos
+- Cálculo automático da utilização da CPU
+- Cálculo do tempo médio de espera
 
 ---
 
 # Tecnologias Utilizadas
 
-* Flutter
-* Dart
+- Flutter
+- Dart
 
 ---
 
 # Plataformas Suportadas
 
-* Windows
-* Linux
+- Windows
+- Linux
 
 ---
 
@@ -46,6 +43,8 @@ SchedSim/
 │
 ├── lib/
 ├── assets/
+├── build/
+├── docs/
 ├── windows/
 ├── linux/
 ├── README.md
@@ -59,9 +58,9 @@ SchedSim/
 ## Linux
 
 ```bash
-cd Simulador_RoundRobin_Linux
-chmod +x roundrobin
-./roundrobin
+cd Simulador_SchedSim_Linux
+chmod +x schedsim
+./schedsim
 ```
 
 ## Windows
@@ -69,13 +68,13 @@ chmod +x roundrobin
 Acesse a pasta:
 
 ```text
-Simulador_RoundRobin_Windows
+Simulador_SchedSim_Windows
 ```
 
 Execute:
 
 ```text
-roundrobin.exe
+schedsim.exe
 ```
 
 > **Importante:** mantenha todos os arquivos da pasta do executável. O programa depende das bibliotecas distribuídas juntamente com ele.

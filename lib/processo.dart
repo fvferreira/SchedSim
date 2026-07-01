@@ -1,4 +1,4 @@
-import 'package:roundrobin/estado.dart';
+import 'package:schedsim/estado.dart';
 
 class Processo {
   final String nome;
@@ -23,7 +23,6 @@ class Processo {
     required this.rodadasIniciais,
   }) : rodadasRestantes = rodadasIniciais;
 
-  // Resetar para nova simulação
   void reset() {
     rodadasRestantes = rodadasIniciais;
     tempoCpuAtual = 0;

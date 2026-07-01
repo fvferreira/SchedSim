@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "roundrobin" "\0"
+            VALUE "CompanyName", "João Victor Ferreira da Silva" "\0"
+            VALUE "FileDescription", "SchedSim - Simulador Didático de Escalonamento" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "roundrobin" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "roundrobin.exe" "\0"
-            VALUE "ProductName", "roundrobin" "\0"
+            VALUE "InternalName", "SchedSim - Simulador Didático de Escalonamento" "\0"
+           VALUE "LegalCopyright", "Copyright (C) 2026 João Victor Ferreira da Silva. Todos os direitos reservados."
+            VALUE "ProductName", "SchedSim"
+            VALUE "ProductName", "SchedSim" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

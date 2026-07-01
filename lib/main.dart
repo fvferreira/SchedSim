@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:roundrobin/telasimulador.dart';
+import 'package:schedsim/telasimulador.dart';
 
 void main() {
   runApp(const SimuladorEscalonamentoApp());
